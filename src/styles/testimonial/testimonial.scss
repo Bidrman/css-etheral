@@ -1,0 +1,16 @@
+.testimonial {
+    &__heading {
+        text-align: center;
+
+        h3 {
+            display: inline-block;
+            line-height: 35px;
+            margin-bottom: 50px;
+        }
+    }
+
+    &__carousel {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}

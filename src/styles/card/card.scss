@@ -1,0 +1,36 @@
+.card {
+    box-sizing: border-box;
+    width: 360px;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+
+    @include tablet {
+        width: 100%;
+    }
+
+    &__text {
+        display: flex;
+        flex-flow: column;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        max-width: 300px;
+
+        @include tablet {
+            max-width: 100%;
+        }
+    }
+
+    &__icon-wrapper {
+        min-width: 70px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid rgba(204, 204, 204, 0.8);
+        color: $red;
+    }
+}

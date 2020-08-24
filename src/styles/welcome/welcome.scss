@@ -1,0 +1,13 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+
+    h1 > span {
+        font-family: inherit;
+        font-size: inherit;
+        color: $red;
+    }
+}

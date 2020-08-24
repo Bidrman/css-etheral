@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    & .navigation {
+        width: 420px;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    & .nav_item {
+        padding: 0.9rem;
+
+        &:hover {
+            background-color: $navigation-hover;
+            border-bottom: 2px solid $red;
+            box-sizing: border-box;
+        }
+
+        &-active {
+        }
+    }
+}

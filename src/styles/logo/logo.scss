@@ -1,0 +1,22 @@
+.logo {
+    box-sizing: border-box;
+    height: auto;
+
+    & img {
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+}
+
+.small {
+    width: 40px;
+}
+
+.medium {
+    width: 80px;
+}
+
+.large {
+    width: 120px;
+}

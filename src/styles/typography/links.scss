@@ -1,0 +1,30 @@
+.link {
+    &-navigation {
+        text-decoration: none;
+        color: $navigation-link;
+    }
+
+    &-btn {
+        color: $light-gray;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 1px solid rgba(204, 204, 204, 0.18);
+        border-radius: 20px;
+        margin-top: 40px;
+
+        &:hover {
+            background-color: $light-gray;
+            color: $text-base;
+        }
+    }
+
+    &__btn-red {
+        color: $white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 1px solid $red;
+        background: $red;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+}

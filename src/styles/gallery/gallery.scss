@@ -1,0 +1,42 @@
+.gallery {
+    box-sizing: border-box;
+
+    &__heading {
+        text-align: center;
+
+        h3 {
+            display: inline-block;
+            line-height: 35px;
+            margin-bottom: 50px;
+        }
+    }
+
+    &__images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    &__img-wrapper {
+        display: flex;
+        flex: 0 1 auto;
+        height: auto;
+        padding: 0 15px;
+        margin-bottom: 30px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        @include tablet {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

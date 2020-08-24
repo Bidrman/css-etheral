@@ -1,0 +1,49 @@
+.swiper {
+    &-container {
+        box-sizing: border-box;
+        background: $light-pink;
+        border-radius: 6px;
+    }
+
+    &-slide {
+        box-sizing: border-box;
+        padding: 25px 15px;
+    }
+
+    &-pagination-bullet {
+        width: 11px !important;
+        height: 11px !important;
+        background: #f28b9b !important;
+    }
+
+    &__quote {
+        display: flex;
+        margin-bottom: 25px;
+
+        &-mark {
+            font-weight: bold;
+            font-size: 140%;
+            display: inline-block;
+            padding: 0 10px;
+        }
+    }
+
+    &__person {
+        display: flex;
+
+        &__icon-wrapper {
+            min-width: 70px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 1px solid rgba(204, 204, 204, 0.8);
+            color: $red;
+        }
+
+        &-name {
+            margin-left: 15px;
+            padding-top: 20px;
+            font-weight: bold;
+        }
+    }
+}

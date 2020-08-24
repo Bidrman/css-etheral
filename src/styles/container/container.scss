@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &__hero {
+        display: flex;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    &__cards {
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 1;
+        padding: 100px 0;
+    }
+
+    &__gallery,
+    &__testimonials,
+    &__subscribe,
+    &__about-us {
+        padding: 50px 0;
+    }
+}
