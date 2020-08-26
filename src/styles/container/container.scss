@@ -21,7 +21,20 @@
     &__gallery,
     &__testimonials,
     &__subscribe,
-    &__about-us {
+    &__about-us,
+    &__contact {
         padding: 50px 0;
+    }
+
+    &__footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+
+        @include tablet {
+            flex-flow: column;
+        }
     }
 }

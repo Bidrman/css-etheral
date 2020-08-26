@@ -1,0 +1,110 @@
+.contact {
+    &__heading {
+        text-align: center;
+
+        h3 {
+            display: inline-block;
+            margin-bottom: 50px;
+            line-height: 35px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+
+        @include tablet {
+            display: flex;
+            flex-flow: column;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    &__form {
+        width: 60%;
+        padding: 0 20px;
+
+        @include tablet {
+            width: 100%;
+            padding: 0;
+        }
+
+        &-row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 100&;
+
+            @include tablet {
+                flex-flow: column;
+            }
+        }
+
+        &-field {
+            display: inline-block;
+            color: $text-dark;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid $red;
+            padding: 5px;
+            margin-top: 25px;
+            width: 100%;
+
+            &:hover {
+                border-bottom: 2px solid $text-dark;
+            }
+
+            @include tablet {
+                width: 100%;
+            }
+        }
+
+        &-name,
+        &-email {
+            width: 44%;
+
+            @include tablet {
+                width: 100%;
+            }
+        }
+
+        &-text {
+            resize: none;
+            padding: 10px 5px;
+            width: 100%;
+        }
+
+        &-btn {
+            text-align: center;
+        }
+    }
+
+    &__address {
+        margin-top: 35px;
+        margin-right: 60px;
+        color: $text-dark;
+
+        @include tablet {
+            margin-right: 0;
+        }
+
+        h4 {
+            color: $red;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-weight: bolder;
+        }
+
+        &-info {
+            color: $text-base;
+            display: flex;
+            flex-flow: column;
+            margin-top: 25px;
+        }
+    }
+}

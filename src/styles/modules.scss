@@ -2,9 +2,9 @@
 @import './_mixins.scss';
 @import './theme/theme';
 @import './container/container';
-@import './footer/footer';
 @import './section/header';
 @import './section/colored';
+@import './section/footer';
 @import './section/hero';
 @import './logo/logo';
 @import './form/form';
@@ -16,6 +16,7 @@
 @import './swiper/swiper';
 @import './subscribe/subscribe';
 @import './about/about';
+@import './contact/contact';
 
 //Features
 @import './welcome/welcome';

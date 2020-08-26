@@ -1,0 +1,38 @@
+.footer {
+    background: $white;
+    padding: 25px 0;
+    text-align: center;
+
+    &-text {
+        font-size: 13px;
+    }
+
+    &-logos {
+    }
+
+    &-logo {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin: -15px 9px;
+        padding: 13px;
+        background: $text-base;
+        border-radius: 50%;
+        cursor: pointer;
+        color: $white;
+
+        &:hover {
+            background: $red;
+        }
+
+        @include tablet {
+            margin: 9px;
+        }
+    }
+
+    &-link {
+        color: $red;
+        text-decoration: none;
+        font-size: 13px;
+    }
+}

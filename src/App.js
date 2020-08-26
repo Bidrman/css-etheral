@@ -14,6 +14,7 @@ import Gallery from './features/gallery'
 import Testimonial from './features/testimonial'
 import Subscribe from './features/subscribe'
 import AboutUs from './features/about'
+import Contact from './features/contact'
 
 function App() {
     return (
@@ -70,6 +71,27 @@ function App() {
             <Section className='white'>
                 <Container className='container container__about-us'>
                     <AboutUs heading='About Us' />
+                </Container>
+            </Section>
+            <Section className='gray'>
+                <Container className='container container__contact'>
+                    <Contact />
+                </Container>
+            </Section>
+            <Section className='footer'>
+                <Container className='container container__footer'>
+                    <span className='footer-text'>Copyright © Nobody 2020</span>
+                    <div className='footer-logos'>
+                        <span className='footer-logo'>tw</span>
+                        <span className='footer-logo'>fb</span>
+                        <span className='footer-logo'>in</span>
+                    </div>
+                    <span className='footer-text'>
+                        Designed by{' '}
+                        <a href='#' className='footer-link'>
+                            nobody corp
+                        </a>
+                    </span>
                 </Container>
             </Section>
         </div>

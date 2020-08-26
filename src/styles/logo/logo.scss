@@ -2,10 +2,15 @@
     box-sizing: border-box;
     height: auto;
 
-    & img {
-        width: 100%;
-        height: auto;
-        color: white;
+    &__heading {
+        cursor: pointer;
+        color: $white;
+        font-size: 23px;
+        margin-top: 10px;
+
+        &:hover {
+            color: $red;
+        }
     }
 }
 
